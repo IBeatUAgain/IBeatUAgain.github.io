@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tanush's personal website: coursework, web development experiments, and a growing collection of software and systems projects.">
+    <meta name="theme-color" content="#f6f4ee">
+    <title>Tanush | Software &amp; Systems</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="assets/circuit.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header page-width">
+      <a class="wordmark" href="#home" aria-label="Tanush, home">t<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Coursework</a>
+        <a href="#learning">Learning</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page-width">
+      <div id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> A WORK IN PROGRESS, IN THE BEST WAY</p>
+          <h1>Hello, I'm Tanush.<br>Learning by <em>building.</em></h1>
+          <p class="intro">A small corner of the internet for my coursework, experiments, and things I'm learning about software and systems.</p>
+          <a class="button-link" href="#work">Explore my coursework <span aria-hidden="true">↗</span></a>
+        </div>
+        <figure class="hero-image">
+          <img src="assets/circuit.svg" alt="An original circuit-board illustration connecting a central chip to software, hardware, and web nodes" width="560" height="480">
+          <figcaption>SMALL COMPONENTS. BIG POSSIBILITIES.</figcaption>
+        </figure>
+      </div>
+
+      <!-- The two content-section divs also demonstrate a reused CSS class. -->
+      <div id="about" class="content-section about-section">
+        <p class="section-number">01 / ABOUT</p>
+        <div>
+          <h2>From an idea to something you can use.</h2>
+          <p>I'm exploring the building blocks of the web through EE461L. This site is one of those experiments: a page made with just HTML and CSS, with attention to clear structure, readable typography, and the details that make a page feel finished.</p>
+          <p>Alongside it, I'm building a React interface for managing projects and shared hardware. Each exercise is a chance to connect a new concept to something practical.</p>
+        </div>
+      </div>
+
+      <div id="work" class="content-section">
+        <p class="section-number">02 / COURSEWORK</p>
+        <div class="section-body">
+          <h2>A few things taking shape.</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-index">01 <span>FRONTEND FUNDAMENTALS</span></p>
+              <h3>A place on the web.</h3>
+              <p>The personal site you're reading. Semantic HTML, an external stylesheet, responsive layouts, and an original illustration.</p>
+              <ul class="tags" aria-label="Technologies used"><li>HTML</li><li>CSS</li><li>GitHub Pages</li></ul>
+            </article>
+            <article class="project-card">
+              <p class="project-index">02 <span>COMPONENTS &amp; STATE</span></p>
+              <h3>Hardware, organized.</h3>
+              <p>A coursework demo for joining projects and checking shared hardware in and out, built from reusable React components.</p>
+              <ul class="tags" aria-label="Technologies used"><li>React</li><li>Material UI</li><li>JavaScript</li></ul>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div id="learning" class="content-section learning-section">
+        <p class="section-number">03 / LEARNING</p>
+        <div>
+          <h2>Good documentation goes a long way.</h2>
+          <p>These are a few references behind the work. There is always another detail to understand, another component to improve, and another idea to try.</p>
+          <ul class="resource-list">
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development">MDN Web Docs <span aria-hidden="true">↗</span></a><span>The foundations of the web</span></li>
+            <li><a href="https://react.dev/learn">React documentation <span aria-hidden="true">↗</span></a><span>Thinking in components</span></li>
+            <li><a href="https://mui.com/material-ui/">Material UI <span aria-hidden="true">↗</span></a><span>Useful interface building blocks</span></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer page-width"><p>Tanush <span>/</span> Software &amp; Systems</p><a href="#home">Back to top ↑</a><p>Built with HTML &amp; CSS.</p></footer>
+  </body>
+</html>
